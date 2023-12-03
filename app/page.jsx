@@ -66,7 +66,7 @@ const Home = () => {
         <div className="app-max-width app-x-padding h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
           {categoryList.map((item, idx) => (
             <div key={idx} className="w-full">
-              <OverlayContainer imgSrc="/assets/images/slide0.jpg">
+              <OverlayContainer imgSrc="/assets/images/logo_home.svg">
                 <LinkButton href="" extraClass="absolute bottom-2 z-20">
                   {item.CategoryName}
                 </LinkButton>
