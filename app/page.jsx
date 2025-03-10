@@ -39,13 +39,13 @@ const Home = () => {
   return (
     <>
       <section className="w-full flex-center flex-col rounded-2xl overflow-hidden mt-32">
-        <SliderCarousel autoSlide autoSlideInterval={1500} />
+        <SliderCarousel autoSlide autoSlideInterval={4500} />
       </section>
       <section className="w-full flex-center flex-col mt-[70px]">
         <h1 className="head_text text-center">
           WATCH WORLD
           <br className="max-md:hidden" />
-          <span className="orange_gradient text-center">
+          <span className="orange_gradient text-center font-semibold">
             {" "}
             Website bán đồng hồ
           </span>
@@ -111,7 +111,7 @@ const Home = () => {
       </section>
 
       <section className="w-full flex-center flex-col mt-[150px]">
-        <h1 className="head_text text-center">
+        <h1 className="text-center font-semibold text-5xl">
           Trang web mang đến sự đa dạng với nhiều lựa chọn đồng hồ độc đáo.
           <br className="max-md:hidden" />
           <span className="orange_gradient text-center"> - WATCH WORLD -</span>
